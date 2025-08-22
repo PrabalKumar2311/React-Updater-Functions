@@ -39,7 +39,7 @@ function ArrayOfObj() {
   }
 
   useEffect(() => {
-    console.log(cars)
+    console.log(cars[0])
 
   },[cars])
 
