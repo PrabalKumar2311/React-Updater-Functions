@@ -11,6 +11,8 @@ function ArrayUpdate() {
 
   function handleAddFood(){
     setFoods(foods => [...foods, newFood]);
+    setNewFood("");
+
   }
 
 

@@ -23,7 +23,8 @@ function ArrayOfObj() {
 
   function addCar(){
 
-    if(carMake.trim().length != 0 && 
+    if( carYear > 1900 &&
+      carMake.trim().length != 0 && 
     carModel.trim().length != 0){
 
       const newCar = { year: carYear,

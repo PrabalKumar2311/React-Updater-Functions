@@ -12,6 +12,9 @@ function ObjectUpdate() {
   function handleYearChange(e){
     setCar(car => ({...car, year: e.target.value}));
   }
+  //should be setCar(c => ({...c, year: e.target.value}));
+  //OR
+  //setCar(prev => ({...prev, year: e.target.value}));
 
   function handleMakeChange(e){
     setCar(car => ({...car, make: e.target.value}))
